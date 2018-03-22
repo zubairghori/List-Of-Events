@@ -15,6 +15,10 @@
 		8438CBC520643BF500DEC163 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CBC420643BF500DEC163 /* City.swift */; };
 		8438CBC720643C2400DEC163 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CBC620643C2400DEC163 /* Schedule.swift */; };
 		8438CBC920643C5900DEC163 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CBC820643C5900DEC163 /* Currency.swift */; };
+		8438CBCB206452D700DEC163 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CBCA206452D700DEC163 /* EventsViewController.swift */; };
+		8438CBCD206452E600DEC163 /* EventsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CBCC206452E600DEC163 /* EventsTableViewCell.swift */; };
+		8438CBCF2064534100DEC163 /* ImagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CBCE2064534100DEC163 /* ImagesTableViewCell.swift */; };
+		8438CBD12064535100DEC163 /* ImagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438CBD02064535100DEC163 /* ImagesTableViewController.swift */; };
 		84B13209206414CA003BA0BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B13208206414CA003BA0BD /* AppDelegate.swift */; };
 		84B1320B206414CA003BA0BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B1320A206414CA003BA0BD /* ViewController.swift */; };
 		84B1320E206414CA003BA0BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B1320C206414CA003BA0BD /* Main.storyboard */; };
@@ -59,6 +63,10 @@
 		8438CBC420643BF500DEC163 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		8438CBC620643C2400DEC163 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		8438CBC820643C5900DEC163 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		8438CBCA206452D700DEC163 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		8438CBCC206452E600DEC163 /* EventsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsTableViewCell.swift; sourceTree = "<group>"; };
+		8438CBCE2064534100DEC163 /* ImagesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTableViewCell.swift; sourceTree = "<group>"; };
+		8438CBD02064535100DEC163 /* ImagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTableViewController.swift; sourceTree = "<group>"; };
 		84B13205206414CA003BA0BD /* ListOfEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListOfEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B13208206414CA003BA0BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B1320A206414CA003BA0BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +117,10 @@
 			isa = PBXGroup;
 			children = (
 				84B1320A206414CA003BA0BD /* ViewController.swift */,
+				8438CBCA206452D700DEC163 /* EventsViewController.swift */,
+				8438CBCC206452E600DEC163 /* EventsTableViewCell.swift */,
+				8438CBCE2064534100DEC163 /* ImagesTableViewCell.swift */,
+				8438CBD02064535100DEC163 /* ImagesTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -537,10 +549,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8438CBCB206452D700DEC163 /* EventsViewController.swift in Sources */,
 				8438CBB720641F9C00DEC163 /* EventsViewModel.swift in Sources */,
 				84B1320B206414CA003BA0BD /* ViewController.swift in Sources */,
 				8438CBC1206439D400DEC163 /* EventImage.swift in Sources */,
+				8438CBCD206452E600DEC163 /* EventsTableViewCell.swift in Sources */,
+				8438CBD12064535100DEC163 /* ImagesTableViewController.swift in Sources */,
 				8438CBC720643C2400DEC163 /* Schedule.swift in Sources */,
+				8438CBCF2064534100DEC163 /* ImagesTableViewCell.swift in Sources */,
 				84B13209206414CA003BA0BD /* AppDelegate.swift in Sources */,
 				8438CBBA20641FD100DEC163 /* EServices.swift in Sources */,
 				8438CBC920643C5900DEC163 /* Currency.swift in Sources */,
