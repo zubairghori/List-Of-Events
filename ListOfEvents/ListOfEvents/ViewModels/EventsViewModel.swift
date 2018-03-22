@@ -14,6 +14,7 @@ class EventsViewModel {
     static let shared = EventsViewModel()
     private let providor = MoyaProvider<EService>()
     
+    //get data from api and then parse in to swift 
     func getEevents(pageSize:Int,pagNo:Int,cityId:String)->Observable<[Event]>{
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .secondsSince1970

@@ -209,7 +209,7 @@
                     <navigationItem key="navigationItem" title="Events" id="JJk-rF-oXj"/>
                     <connections>
                         <outlet property="eventTable" destination="m3f-JI-mEs" id="vKQ-af-dmj"/>
-                        <segue destination="JZQ-dE-KSU" kind="show" id="ddj-io-mAd"/>
+                        <segue destination="JZQ-dE-KSU" kind="show" identifier="image" id="ddj-io-mAd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -232,7 +232,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="138.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download (7)" translatesAutoresizingMaskIntoConstraints="NO" id="xYl-S5-F64">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="download (7)" translatesAutoresizingMaskIntoConstraints="NO" id="xYl-S5-F64">
                                             <rect key="frame" x="19" y="7" width="337.5" height="124.5"/>
                                         </imageView>
                                     </subviews>

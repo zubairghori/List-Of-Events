@@ -30,6 +30,7 @@ class EventsTableViewCell: UITableViewCell {
     }
     override func layoutSubviews() {
         super.layoutSubviews()
+        //round the images
         self.chefImage.layer.cornerRadius = self.chefImage.frame.size.width/2
         self.chefImage.layer.masksToBounds=true
         self.chefImage.clipsToBounds=true

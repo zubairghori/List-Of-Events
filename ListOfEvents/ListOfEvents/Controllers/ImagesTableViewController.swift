@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class ImagesTableViewController: UITableViewController {
 
@@ -14,30 +15,21 @@ class ImagesTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-    }
-
-
-    // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
+        if let e = self.selectedEvent{
+            self.title = e.title
+        }
+        //remove lines from bottom
+        self.tableView.tableFooterView = UIView()
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return self.selectedEvent!.images?.count ?? 0
     }
 
-    /*
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ImageCell") as! ImagesTableViewCell
+        cell.eventImage.sd_setImage(with: URL(string:self.selectedEvent!.images![indexPath.row].imageUrl!), placeholderImage: #imageLiteral(resourceName: "download (7)"), options: .progressiveDownload, completed: nil)
         return cell
     }
-    */
 
 }
