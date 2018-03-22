@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         //pass data to next screen
         let dest = segue.destination as! ImagesTableViewController
-        dest.selectedEvent = sender as! Event
+        dest.selectedEvent = sender as? Event
     }
 }
 
