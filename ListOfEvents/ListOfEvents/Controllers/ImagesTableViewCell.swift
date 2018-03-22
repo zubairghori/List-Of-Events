@@ -10,6 +10,7 @@ import UIKit
 
 class ImagesTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var eventImage: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
